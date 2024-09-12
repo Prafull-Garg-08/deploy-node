@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "node-hello",
   "version": "1.0.0",
   "description": "",
@@ -18,21 +17,4 @@
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
   "homepage": "https://github.com/johnpapa/node-hello#readme"
-=======
-    "name": "graphql",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.18.2",
-        "express-graphql": "^0.12.0",
-        "graphql": "^15.8.0"
-    }
->>>>>>> 2ab5554 (initial)
 }
