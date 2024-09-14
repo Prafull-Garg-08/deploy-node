@@ -4,12 +4,15 @@ on:
     workflow_dispatch:
     push:
         branches:
-            -master
+            - master
 
 jobs:
     Source:
         runs-on: ubuntu-latest
         steps:
             - name: checkout source code
-              run: actions/checkout@v4
+              uses: actions/checkout@v4
+              with:
+                path: .
+            
         
